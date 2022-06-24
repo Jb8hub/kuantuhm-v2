@@ -4,3 +4,11 @@
 body {
   background: #1f1f1f;
 }
+@font-face {
+  font-family: "Aurebesh";
+  src: local("Aurebesh"), url("./fonts/Aurebesh.ttf");
+}
+.aurebesh {
+  font-family: "Aurebesh", sans-serif;
+  font-weight: bold;
+}
