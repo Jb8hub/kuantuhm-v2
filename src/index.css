@@ -1,8 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-  background: #1f1f1f;
+@layer base {
+  body {
+    background-color: #1f1f1f;
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
 }
 @font-face {
   font-family: "Aurebesh";
